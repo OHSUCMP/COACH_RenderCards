@@ -1,10 +1,9 @@
 /* SOME NOTES
 - CardToRec.java accepts recommendation number as input (e.g. 12, 20a, etc., make sure it matches the number written in
 CDS cards excel file) and outputs html file corresponding to the recommendation
-- can comment out call to writeLinksHtml() function if those links won't be displayed to patient (these are not the
+- can comment ou call to writeLinksHtml() function if those links won't be displayed to patient (these are not the
 counseling links)
-- program throws exception if recommendation text is not written in excel file OR if all suggestions in
-v3 columns are blank
+- program throws exception if recommendation text is not written in excel file
 - make sure column letters/numbers are updated to match excel file, and file path is updated
 - "update-goal" type not written (since excel cells for type is N/A)
  */
@@ -33,8 +32,8 @@ public class CardToRec {
     private static final int colO = 14; // suggestions v3 label column #
 
     public static void main(String[] args) throws Exception {
-        // String targetRec = args[0]; // recommendation number
-        String targetRec = "23c";
+        String targetRec = args[0]; // recommendation number
+        // String targetRec = "23c";
 
         // [CHANGE PATH NAME FOR OWN EXCEL FILE]
         File cards = new File("/Users/elliechang/Desktop/HBP_CDS_Cards_v5.xlsx");
