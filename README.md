@@ -29,7 +29,7 @@ mvn clean compile package
 
 ## Running the Program
 
-1. Identify the Recommendation Number from **Column A** in the spreadsheet (hereafter *&lt;recNo&gt;*) for which to render cards
+1. Identify the Recommendation Number from **Column A** within *&lt;file&gt;* (hereafter *&lt;recNo&gt;*) for which to render cards
 1. In the root of this folder, run:
    
 ```
