@@ -1,5 +1,7 @@
+package edu.ohsu.dmice.cmp.coach.tools;
+
 /* SOME NOTES
-- CardToRec.java accepts recommendation number as input (e.g. 12, 20a, etc., make sure it matches the number written in
+- edu.ohsu.dmice.cmp.coach.tools.CardToRec.java accepts recommendation number as input (e.g. 12, 20a, etc., make sure it matches the number written in
 CDS cards excel file) and outputs html file corresponding to the recommendation
 - can comment ou call to writeLinksHtml() function if those links won't be displayed to patient (these are not the
 counseling links)
