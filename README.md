@@ -32,7 +32,7 @@ mvn clean compile package
 1. In the root of this folder, run:
    
 ```
-mvn exec:java "-Dexec.args=\"<file>\" <recNo>"
+mvn exec:java "-Dexec.args=<file> <recNo>"
 ```
 
 For example:
