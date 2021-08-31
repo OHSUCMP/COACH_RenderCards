@@ -1,7 +1,7 @@
 # COACH_RenderCards
 Command-line utility to render COACH recommendation cards based off internal spreadsheet rows
 
-## Setup (Install Prerequisites)
+## Setup and Preparation
 1. **IF YOU DON'T HAVE A JAVA 11 JDK INSTALLED**, install OpenJ9 JDK for Java 11: 
    
    - go here: https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=openj9
