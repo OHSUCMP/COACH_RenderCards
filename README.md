@@ -14,7 +14,6 @@ Command-line utility to render COACH recommendation cards based off internal spr
    - go here : https://maven.apache.org/download.cgi
    - download this: apache-maven-3.8.2-bin.zip
    - follow instructions at: https://maven.apache.org/install.html
-   - extract to C:\Users\YourUsername\
     
 1. Retrieve a copy of the "HBP CDS Cards" Excel spreadsheet from OHSU CMP Box folder (hereafter *&lt;file&gt;*)
 
