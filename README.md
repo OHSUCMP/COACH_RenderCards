@@ -17,7 +17,6 @@ Command-line utility to render COACH recommendation cards based off internal spr
    - extract to C:\Users\YourUsername\
     
 1. Retrieve a copy of the "HBP CDS Cards" Excel spreadsheet from OHSU CMP Box folder (hereafter *&lt;file&gt;*)
-1. Identify the Recommendation Number from **Column A** in the spreadsheet (hereafter *&lt;recNo&gt;*) 
 
 ## Build the Project
 
@@ -30,6 +29,7 @@ mvn clean compile package
 
 ## Running the Program
 
+1. Identify the Recommendation Number from **Column A** in the spreadsheet (hereafter *&lt;recNo&gt;*) for which to render cards
 1. In the root of this folder, run:
    
 ```
